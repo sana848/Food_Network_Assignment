@@ -1,0 +1,113 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+  }
+  h1 {
+    color: rgb(44, 44, 10);
+    font-size: 50px;
+  }
+  h2{
+    font-size: 40px;
+  }
+  #welcome{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+  }
+  #food{
+    text-align: center;
+    color: royalblue;
+
+  }
+  #foodP{
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .cl{
+    color: #ff8800;
+  }
+  .cll{
+    color: gray;
+  }
+  .flexContainer{
+    display: flex;
+    margin-bottom: 100px;
+  }
+  .hw{
+    width: 50%;
+    padding-left: 10%;
+    text-align: center;
+  }
+  .hw img{
+    width: 50%;
+  }
+  .lb{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  .topBanner{
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+  }
+  .aboutMe{
+    background-image: url(dream_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  #dreamImg{
+    margin-top: 10px;
+  }
+  .foodItem{
+    background-color: gainsboro;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+  }
+  .foodItem img{
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 90%;
+  }
+  .foodArea{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  #pasta{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+  }
+  #chola{
+    border-left: 7px solid;
+    border-image: linear-gradient(pink,red );
+    border-image-slice: 1;
+  }
+  #salad{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(7, 24, 10),rgb(0, 255, 34) );
+    border-image-slice: 1;
+  }
+  footer p{
+    text-align: center;
+  }
+  .end{
+    background-color: black;
+    color: rgb(230, 225, 221);
+    border-radius: 5px;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+  }
